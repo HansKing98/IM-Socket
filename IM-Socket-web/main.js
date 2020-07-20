@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import App from './App'
+import io from './common/weapp.socket.io.js'
 
 Vue.config.productionTip = false
+Vue.prototype.socket = io('http://127.0.0.1:8082')
 
 App.mpType = 'app'
 
