@@ -3,6 +3,12 @@
 - 基于 uni-app
 - socket.io
 
+Socket-sever dev
+
+```bash
+nodemon index
+```
+
 ## 基础版
 
 ![截屏2020-07-21 上午12.14.52](https://image.hansking.cn/uPic/202007/mabkhY.png)
